@@ -1,7 +1,7 @@
 import React from 'react';
 import { Feather } from '@expo/vector-icons';
 import { View, Image, TouchableOpacity, Text, Linking } from 'react-native';
-import { useNavigation, useRoute } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 import * as MailComposer from 'expo-mail-composer';
 
 import logoImg from '../../assets/logo.png';
@@ -22,7 +22,7 @@ export default function Detail() {
         MailComposer.composeAsync({
             subject: `Heróio do caso: ${incident.title}`,
             recipients: [incident.email],
-            body: message,
+            body: message
         })
     }
 
