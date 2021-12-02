@@ -8,6 +8,8 @@ import logoImg from '../../assets/logo.png';
 
 import styles from './styles';
 
+//  Teste Comentário            
+
 export default function Detail() {
     const navigation = useNavigation();
     const route = useroute();
