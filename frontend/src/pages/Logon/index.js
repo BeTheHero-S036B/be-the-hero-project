@@ -11,6 +11,8 @@ import logoImg from '../../assets/logo.svg';
  //53yeytrdfg
 //Testeeeeee
 
+// asfasfasdfasdfsda
+
 export default function Logon() {
     const [id, setId] = useState('');
     const history = useHistory();
@@ -43,7 +45,7 @@ export default function Logon() {
                         value={id}
                         onChange={e => setId(e.target.value)}
                     />
-                    <button className="button" type="submit">Entrar</button>
+                    <button className="button" type="submit">Fazer Login</button>
 
                     <Link className="back-link" to="/register">
                         <FiLogIn size={16} color="#E02041"/>
